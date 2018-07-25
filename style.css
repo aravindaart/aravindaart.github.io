@@ -239,7 +239,7 @@ a:hover, a:active {
     overflow-x: scroll;
     padding: 30px;
     margin: 0;
-    background: #9a28d7;
+    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
     transition: all 0.35s;
 }
 

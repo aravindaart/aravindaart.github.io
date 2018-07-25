@@ -273,18 +273,20 @@ a:hover, a:active {
         position: relative;
         top: auto;
         right: auto;
+        z-index: 9999;
         height: auto;
         background: transparent;
     }
 
     .site-navigation ul {
-        display: block;
+        display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
         align-items: center;
         position: relative;
         top: auto;
         left: auto;
+        z-index: 9999;
         width: 100%;
         height: auto;
         padding: 0;

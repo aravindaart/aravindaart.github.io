@@ -2209,7 +2209,7 @@ ul.tabs-nav .tab-nav.active {
   user-select: none;
   cursor: pointer;
   height: 1rem;
-  right: 1rem;
+  right: 2rem;
   position: fixed;
   top: 2rem;
   width: 2rem;

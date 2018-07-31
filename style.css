@@ -159,6 +159,10 @@ a:hover, a:active {
     max-width: 24px;
     height: 22px;
     margin-left: auto;
+     -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
 }
@@ -173,11 +177,12 @@ a:hover, a:active {
     border-radius: 10px;
     opacity: 1;
     left: 0;
-    transition: .25s ease-in-out;
-    -webkit-transition: .25s ease-in-out;
+     -webkit-transition: .25s ease-in-out;
     -moz-transition: .25s ease-in-out;
     -ms-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+   
 }
 
 .hamburger-menu span:nth-child(1) {
@@ -225,11 +230,12 @@ a:hover, a:active {
     height: 22px;
     overflow: hidden;
     list-style: none;
-    transition: all .35s;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     -ms-transition: all .35s;
     -o-transition: all .35s;
+    transition: all .35s;
+    
 }
 
 .site-navigation.show {
@@ -248,11 +254,12 @@ a:hover, a:active {
     padding: 30px;
     margin: 0;
     background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
-    transition: all 0.35s;
-    -webkit-transition: all .35s;
+     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     -ms-transition: all .35s;
     -o-transition: all .35s;
+    transition: all 0.35s;
+   
 }
 
 .site-navigation.show ul {
@@ -271,6 +278,10 @@ a:hover, a:active {
 .site-navigation ul li a {
     display: block;
     color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
     transition: all 0.35s;
     text-decoration: none;
 }
@@ -376,6 +387,10 @@ a:hover, a:active {
     border: 2px solid #fff;
     border-radius: 50%;
     background: #9a28d7;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -415,6 +430,10 @@ a:hover, a:active {
     color: #fff;
     background: transparent;
     opacity: 1;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -993,6 +1012,10 @@ a:hover, a:active {
 
     visibility: hidden;
     opacity: 0;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -1425,6 +1448,10 @@ ul.tabs-nav .tab-nav {
     font-weight: bold;
     color: #232127;
     cursor: pointer;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -2184,6 +2211,10 @@ ul.tabs-nav .tab-nav.active {
     border: 2px solid #fff;
     border-radius: 50%;
     background: #9a28d7;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
     cursor: pointer;
 

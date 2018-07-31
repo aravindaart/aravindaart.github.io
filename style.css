@@ -2299,7 +2299,7 @@ ul.tabs-nav .tab-nav.active {
     left: 0; }
 .nav ul {
     position: absolute;
-    top: 10%;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
